@@ -78,13 +78,13 @@ Here i simply make recyclerview app with kotlin so, you can understand how to ad
 </android.support.v7.widget.CardView>
 ```
 
-## 2. Create a ```Model.kt``` class file
+## 2. Create a *```Model.kt```* class file
 ``` package com.dilipsuthar.recycleviewkotlin
 
 data class Model(val imageRes: Int, val textView: String)
 ```
 
-## 3. Create an ```AdapterExample.kt``` class file
+## 3. Create an *```AdapterExample.kt```* class file
 ``` package com.dilipsuthar.recycleviewkotlin
 
 import android.support.v7.widget.RecyclerView
@@ -122,7 +122,7 @@ class AdapterExample(private val items: ArrayList<Model>) : RecyclerView.Adapter
 
 }
 ```
-## 4. In your ```MainActivity.kt``` file add below code
+## 4. In your *```MainActivity.kt```* file add below code
 ``` package com.dilipsuthar.recycleviewkotlin
 
 import android.support.v7.app.AppCompatActivity
@@ -188,4 +188,5 @@ class MainActivity : AppCompatActivity() {
 }
 ```
 
+### https://about.me/dilip.suthar
 ## Thank you.
