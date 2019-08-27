@@ -54,10 +54,12 @@ class MainActivity : AppCompatActivity() {
     private fun addCard(pos: Int) {
         items.add(pos, Model(R.drawable.sixr, "new added card"))
         adapter.notifyItemInserted(pos)
+        recyclerView.smoothScrollToPosition(pos)
     }
 
     private fun removeCard(pos: Int) {
         items.removeAt(pos)
         adapter.notifyItemRemoved(pos)
+        recyclerView.smoothScrollToPosition(pos)
     }
 }
